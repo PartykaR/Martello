@@ -178,11 +178,13 @@ td.ingredients {
     
     .content {
         width: 100%;
-        margin: 3 px;
-        font-size: .9rem;
+        margin: 3px;
+        font-size: 1.3rem;
     }
     
     .content img {
         float: none;
+        width: auto;
+        display: block;
     }
 }
