@@ -118,7 +118,6 @@ ol>li>ul>li:hover>a {
     padding: 5px;
     font-size: 1.1rem;
     margin-top: 20px;
-    line-height: 1.5rem;
 }
 
 .content img {
@@ -143,7 +142,7 @@ td.price {
     text-align: right;
 }
 
-td.pizza {
+td.pizzamenu {
     font-weight: bold;
     color: #aa0000;
     width: 370px;
@@ -180,11 +179,15 @@ td.ingredients {
     .content {
         width: 100%;
         margin: 3px;
-        font-size: .9rem;
+        font-size: 1.4rem;
     }
     
     .content img {
         float: none;
         width: auto;
+    }
+    
+    .pizzamenu {
+        font-size: 1.1rem;
     }
 }
