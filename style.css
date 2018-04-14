@@ -115,9 +115,9 @@ ol>li>ul>li:hover>a {
     width: 660px;
     margin-left: auto;
     margin-right: auto;
+    padding: 5px;
     font-size: 1.1rem;
     margin-top: 20px;
-    line-height: 1.5rem;
 }
 
 .content img {
@@ -142,7 +142,7 @@ td.price {
     text-align: right;
 }
 
-td.pizza {
+td.pizzamenu {
     font-weight: bold;
     color: #aa0000;
     width: 370px;
@@ -179,12 +179,23 @@ td.ingredients {
     .content {
         width: 100%;
         margin: 3px;
+<<<<<<< HEAD
         font-size: 1.3rem;
+=======
+        font-size: 1.4rem;
+>>>>>>> 1958b9a559012e244b895eb9dcbd17409d16d5b2
     }
     
     .content img {
         float: none;
         width: auto;
+<<<<<<< HEAD
         display: block;
+=======
+    }
+    
+    .pizzamenu {
+        font-size: 1.1rem;
+>>>>>>> 1958b9a559012e244b895eb9dcbd17409d16d5b2
     }
 }
