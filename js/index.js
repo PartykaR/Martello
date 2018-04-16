@@ -1,3 +1,11 @@
+jQuery(document).ready(function()
+{
+	jQuery("#menu-responsive").click(function()
+	{
+		jQuery(".nav").fadeToggle(1000);
+	});
+});
+
 jQuery (function($) {
     //zresetuj scrolla
     $.scrollTo(0);
