@@ -34,7 +34,7 @@ h3 {
 #menu-responsive {
     position: absolute;
     right: 3%;
-    top: 3%;
+    top: 4%;
     font-size: 3rem;
     cursor: pointer;
 }
@@ -192,8 +192,8 @@ td.ingredients {
     .nav {
         display: none;
     }
+    
     .nav {
-        float: none;
         width: 100%;
         padding: 0;
         background-color: #c34f4f;
@@ -201,14 +201,14 @@ td.ingredients {
         border-top: 1px solid #751b1b;
         border-bottom: 1px solid #751b1b;
     }
-    ol {
+    ol {float: none;
         padding: 0;
         margin: 0;
         list-style-type: none;
         font-size: 1.3rem;
         height: 35px;
         line-height: 170%;
-        display: inline-block;
+        display: block;
     }
     ol a {
         color: #fff;
@@ -260,6 +260,7 @@ td.ingredients {
         top: 0;
         z-index: 100;
     }
+    
     .content {
         width: 100%;
         margin: 3px;
