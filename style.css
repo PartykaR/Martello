@@ -188,15 +188,18 @@ td.ingredients {
 }
 
 @media (max-width:601px) {
-    .header,
-    .nav {
+    .header
+     {
         display: none;
     }
-    
+    .fa-bars {
+        color: #000;
+    }
     .nav {
+        float:  none;
         width: 100%;
         padding: 0;
-        background-color: #c34f4f;
+        background-color: #aa0000;
         text-align: center;
         border-top: 1px solid #751b1b;
         border-bottom: 1px solid #751b1b;
@@ -208,7 +211,6 @@ td.ingredients {
         font-size: 1.3rem;
         height: 35px;
         line-height: 170%;
-        display: block;
     }
     ol a {
         color: #fff;
@@ -216,7 +218,7 @@ td.ingredients {
         display: block;
     }
     ol>li {
-        float: left;
+        float: none;
         width: 150px;
         height: 35px;
         border-right: 1px dashed #751b1b;
