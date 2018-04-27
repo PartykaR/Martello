@@ -34,7 +34,7 @@ h3 {
 #menu-responsive {
     position: absolute;
     right: 3%;
-    top: 3%;
+    top: 4%;
     font-size: 3rem;
     cursor: pointer;
 }
@@ -204,7 +204,7 @@ td.ingredients {
         border-top: 1px solid #751b1b;
         border-bottom: 1px solid #751b1b;
     }
-    ol {
+    ol {float: none;
         padding: 0;
         margin: 0;
         list-style-type: none;
@@ -262,6 +262,7 @@ td.ingredients {
         top: 0;
         z-index: 100;
     }
+    
     .content {
         width: 100%;
         margin: 3px;
