@@ -173,6 +173,29 @@ td.ingredients {
     text-align: center;
 }
 
+.scrollup {
+    width: 44px;
+    height: 44px;
+    border:  3px solid #aa0000;
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+    position: fixed;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.scrollup:hover {
+    color: #545351;
+    border-color: #545351;
+    cursor: pointer;
+}
+
+.fa-arrow-up {
+    
+}
+
 .footer {
     text-align: center;
     font-size: 0.8rem;

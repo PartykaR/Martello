@@ -50,3 +50,9 @@ jQuery (function($) {
         $.scrollTo($('.napoje'),500);
     });
 });
+
+//pokaż podczas przewijania
+$(window).scroll(function () {
+    if ($(this).scrollTop()>800) $('.scrollup').fadeIn();
+    else $('.scrollup').fadeOut();
+});

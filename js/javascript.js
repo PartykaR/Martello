@@ -17,3 +17,16 @@ $(document).ready(function() {
 		stickyNav();
 	});
 	});
+
+$(document).on('click', 'a', function (event) {
+    event.preventDefault();
+    $('body, html').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 1000);
+});
+
+$(".scrollup").on("click", function () {
+    $("body, html").animate({
+        scrollTop: $("main").offset().top
+    }, 1000)
+});
