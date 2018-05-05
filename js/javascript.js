@@ -27,6 +27,6 @@ $(document).on('click', 'a', function (event) {
 
 $(".scrollup").on("click", function () {
     $("body, html").animate({
-        scrollTop: $("main").offset().top
+        scrollTop: $("body").offset().top
     }, 1000)
 });
