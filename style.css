@@ -341,6 +341,11 @@ div.desc {
         width: auto;
         display: block;
     }
+    
+    #sala1 {
+        width: 320px;
+        height: auto;
+    }
     .pizzamenu {
         font-size: 1.1rem;
     }
