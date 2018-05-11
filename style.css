@@ -346,7 +346,8 @@ div.desc {
         width: 320px;
         height: auto;
     }
-    .pizzamenu {
+    .pizzamenu table {
         font-size: 1.1rem;
+        width: 320px;
     }
 }
