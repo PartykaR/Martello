@@ -49,6 +49,9 @@ jQuery (function($) {
     $('#link15').click(function() {
         $.scrollTo($('.napoje'),500);
     });
+    $('#m3').click(function() {
+        $.scrollTo($('.napoje'),500);
+    });
 });
 
 //pokaż podczas przewijania
@@ -56,3 +59,10 @@ $(window).scroll(function () {
     if ($(this).scrollTop()>800) $('.scrollup').fadeIn();
     else $('.scrollup').fadeOut();
 });
+
+$(".scrollup").on("click", function () {
+    $("body, html").animate({
+        scrollTop: $("body").offset().top
+    }, 1000)
+});
+
