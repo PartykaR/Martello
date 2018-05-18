@@ -264,6 +264,7 @@ div.desc {
         color: #000;
     }
     .nav {
+        display: none;
         float:  none;
         width: 100%;
         padding: 0;
