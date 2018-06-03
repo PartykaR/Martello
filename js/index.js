@@ -52,6 +52,9 @@ jQuery (function($) {
     $('#m3').click(function() {
         $.scrollTo($('.napoje'),500);
     });
+    $('#m4').click(function() {
+        $.scrollTo($('.dojazd'),500);
+    });
 });
 
 //pokaż podczas przewijania
